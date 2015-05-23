@@ -92,7 +92,7 @@ This dataset provides only a subset, mean and standard deviation, of the initial
 |frequencyBodyGyroscopeMagnitude-mean|num|Mean of filtered frequency domain signals from the gyroscope separated into body acceleration signals; magnitude calculated using the Euclidean norm|
 |frequencyBodyGyroscopeMagnitude-std|num|Standard deviation of filtered frequency domain signals from the gyroscope separated into body acceleration signals; magnitude calculated using the Euclidean norm|
 |frequencyBodyGyroscopeJerkMagnitude-mean|num|Mean of filtered frequency domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
-|frequencyBodyGyroscopeJerkMagnitude-std|Standard deviation of filtered frequency domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
+|frequencyBodyGyroscopeJerkMagnitude-std|num|Standard deviation of filtered frequency domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
 
 ## Data
 
