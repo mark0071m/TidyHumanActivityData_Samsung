@@ -45,6 +45,21 @@ This dataset provides only a subset, mean and standard deviation, of the initial
 |timeBodyAccelerometerJerk-std-X|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the x axis|
 |timeBodyAccelerometerJerk-std-Y|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the y axis|
 |timeBodyAccelerometerJerk-std-Z|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the z axis|
+|timeBodyGyroscope-mean-X|num|Mean of filtered time domain signals from the gyroscope separated into body acceleration signals, x axis|
+|timeBodyGyroscope-mean-Y|num|Mean of filtered time domain signals from the gyroscope separated into body acceleration signals, y axis|
+|timeBodyGyroscope-mean-Z|num|Mean of filtered time domain signals from the gyroscope separated into body acceleration signals, z axis|
+|timeBodyGyroscope-std-X|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals, x axis|
+|timeBodyGyroscope-std-Y|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals, y axis|
+|timeBodyGyroscope-std-Z|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals, z axis|
+|timeBodyGyroscopeJerk-mean-X|num|Mean of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the x axis|
+|timeBodyGyroscopeJerk-mean-Y|num|Mean of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the y axis|
+|timeBodyGyroscopeJerk-mean-Z|num|Mean of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the z axis|
+|timeBodyGyroscopeJerk-std-X|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the x axis|
+|timeBodyGyroscopeJerk-std-Y|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the y axis|
+|timeBodyGyroscopeJerk-std-Z|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the z axis|
+
+
+
 
 
 ## Data
