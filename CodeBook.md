@@ -7,7 +7,7 @@ This dataset provides only a subset, mean and standard deviation, of the initial
 
 ## Instruction List
 1. Download data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-  download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile="Dataset.zip")
+  <code>download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile="Dataset.zip")</code>
   
 2. Extract data from getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, keeping folder structure intact
   unzip(zipfile="Dataset.zip")
@@ -15,8 +15,11 @@ This dataset provides only a subset, mean and standard deviation, of the initial
 3. In R, set working directory to the "UCI HAR Dataset" directory
   setwd("UCI HAR Dataset")
 
-4. Execute the "run_analysis.R" script
-5. merged_tidy_averages.txt will be created in above working directory
+4. Download the "run_analysis.R" script
+  download.file("https://raw.githubusercontent.com/mark0071m/TidyHumanActivityData_Samsung/master/run_analysis.R", destfile="run_analysis.R")
+5. Execute the "run_analysis.R" script
+  source
+6. merged_tidy_averages.txt will be created in above working directory
 
 ## Variables
 
