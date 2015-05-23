@@ -1,9 +1,9 @@
 ## Study Design
-This code book describes the variables found in the merged_tidy_averages.txt dataset as produced by the run_analysis.R script. Merged_tidy_averages.txt is a tidy dataset containing a summarization of data provided by the "Human Activity Recognition Using Smartphones Dataset" (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+This code book describes the merged_tidy_averages.txt dataset as produced by the run_analysis.R script. Merged_tidy_averages.txt is a dataset containing a summarization of data provided by the "Human Activity Recognition Using Smartphones Dataset" (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones); which conforms to the principles of tidy data (http://vita.had.co.nz/papers/tidy-data.pdf).
 
 The original data were built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-This dataset provides only a subset, mean and standard deviation, of the initial data which conforms to the principles of tidy data (http://vita.had.co.nz/papers/tidy-data.pdf). Additionally, data were aggregated by Subject and Type of Activity.
+This dataset provides only a subset, mean and standard deviation, of the initial data, aggregated by Subject and Type of Activity.
 
 ## Instruction List
 1. Download data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -23,7 +23,7 @@ This dataset provides only a subset, mean and standard deviation, of the initial
   <code>list.files()</code>
 
 ## Variables
-s
+
 
 
 ## Data
@@ -31,3 +31,8 @@ s
 
 
 ## Transformations 
+
+## References
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+Wickham, H. (2014). Tidy data. Under review.
