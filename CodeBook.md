@@ -9,7 +9,7 @@ This dataset provides only a subset, mean and standard deviation, of the initial
 |Name|Type|Description|
 |------|------|------|
 |subject|int|An identifier of the subject who carried out the experiment.|
-|activity|Factor w/ 6 levels|activity name|
+|activity|Factor w/ 6 levels|Type of Activity|
 |timeBodyAccelerometer-mean-X|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals, x axis|
 |timeBodyAccelerometer-mean-Y|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals, y axis|
 |timeBodyAccelerometer-mean-Z|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals, z axis|
@@ -78,7 +78,7 @@ This dataset provides only a subset, mean and standard deviation, of the initial
 |frequencyBodyGyroscopeJerkMagnitude-std|num|Standard deviation of filtered frequency domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
 
 ## Data
-
+The resulting dataset (merged_tidy_averages.txt) will be a dataframe with 180 observations of  the 68 variables described above.
 
 
 ## Transformations 
@@ -91,7 +91,8 @@ This dataset provides only a subset, mean and standard deviation, of the initial
   --Prefix f is replaced by frequency<br>
   --Mag is replaced by Magnitude<br>
   --BodyBody is replaced by Body<br>
--Original variables are aggregated into mean averages and are first sorted by subject then by activity.
+-Original variables are aggregated into mean averages and are first sorted by subject then by activity.<br>
+### See code and comments in run_analysis.R for detailed information on how transformations are performed.
 ## References
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
