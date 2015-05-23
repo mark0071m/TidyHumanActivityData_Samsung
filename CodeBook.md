@@ -27,18 +27,24 @@ This dataset provides only a subset, mean and standard deviation, of the initial
 |------|------|------|
 |subject|int|An identifier of the subject who carried out the experiment.|
 |activity|Factor w/ 6 levels|activity name|
-|timeBodyAccelerometer-mean-X|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, x axis|
-|timeBodyAccelerometer-mean-Y|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, y axis|
-|timeBodyAccelerometer-mean-Z|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, z axis|
-|timeBodyAccelerometer-std-X|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, x axis|
-|timeBodyAccelerometer-std-Y|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, y axis|
-|timeBodyAccelerometer-std-Z|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, z axis|
-|timeGravityAccelerometer-mean-X|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, x axis|
-|timeGravityAccelerometer-mean-Y|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, y axis|
-|timeGravityAccelerometer-mean-Z|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, z axis|
-|timeGravityAccelerometer-std-X|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, x axis|
-|timeGravityAccelerometer-std-Y|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, y axis|
-|timeGravityAccelerometer-std-Z|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, z axis|
+|timeBodyAccelerometer-mean-X|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals, x axis|
+|timeBodyAccelerometer-mean-Y|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals, y axis|
+|timeBodyAccelerometer-mean-Z|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals, z axis|
+|timeBodyAccelerometer-std-X|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals, x axis|
+|timeBodyAccelerometer-std-Y|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals, y axis|
+|timeBodyAccelerometer-std-Z|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals, z axis|
+|timeGravityAccelerometer-mean-X|num|Mean of filtered time domain signals from the accelerometer separated into gravity acceleration signals, x axis|
+|timeGravityAccelerometer-mean-Y|num|Mean of filtered time domain signals from the accelerometer separated into gravity acceleration signals, y axis|
+|timeGravityAccelerometer-mean-Z|num|Mean of filtered time domain signals from the accelerometer separated into gravity acceleration signals, z axis|
+|timeGravityAccelerometer-std-X|num|Standard deviation of filtered time domain signals from the accelerometer separated into gravity acceleration signals, x axis|
+|timeGravityAccelerometer-std-Y|num|Standard deviation of filtered time domain signals from the accelerometer separated into gravity acceleration signals, y axis|
+|timeGravityAccelerometer-std-Z|num|Standard deviation of filtered time domain signals from the accelerometer separated into gravity acceleration signals, z axis|
+|timeBodyAccelerometerJerk-mean-X|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the x axis|
+|timeBodyAccelerometerJerk-mean-Y|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the y axis|
+|timeBodyAccelerometerJerk-mean-Z|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the z axis|
+|timeBodyAccelerometerJerk-std-X|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the x axis|
+|timeBodyAccelerometerJerk-std-Y|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the y axis|
+|timeBodyAccelerometerJerk-std-Z|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the z axis|
 
 
 ## Data
