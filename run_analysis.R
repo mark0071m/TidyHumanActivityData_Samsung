@@ -9,12 +9,12 @@
 #with the average of each variable for each activity and each subject.
 
 #Merge the training and the test sets to create one data set.
-d_features_train <- read.table("UCIHARdata/train/X_train.txt")
-d_features_test <- read.table("UCIHARdata/test/X_test.txt")
-d_act_train <- read.table("UCIHARdata/train/y_train.txt")
-d_act_test <- read.table("UCIHARdata/test/y_test.txt")
-d_subj_train <- read.table("UCIHARdata/train/subject_train.txt")
-d_subj_test <- read.table("UCIHARdata/test/subject_test.txt")
+d_features_train <- read.table("train/X_train.txt")
+d_features_test <- read.table("test/X_test.txt")
+d_act_train <- read.table("train/y_train.txt")
+d_act_test <- read.table("test/y_test.txt")
+d_subj_train <- read.table("train/subject_train.txt")
+d_subj_test <- read.table("test/subject_test.txt")
 
 d_features <- rbind(d_features_train, d_features_test)
 d_act <- rbind(d_act_train, d_act_test)
@@ -22,14 +22,14 @@ d_subj <- rbind(d_subj_train, d_subj_test)
 
 #Extracts only the measurements on the mean and 
 #standard deviation for each measurement.
-features <- read.table("UCIHARdata/features.txt")
+features <- read.table("features.txt")
 features_index <- grep("mean\\(\\)|std\\(\\)", features[, 2])
 d_features <- d_features[, features_index]
 names(d_features) <- features[features_index, 2]
 names(d_features) <- gsub("\\(|\\)", "", names(d_features))
 
 #Uses descriptive activity names to name the activities in the data set.
-activities <- read.table("UCIHARdata/activity_labels.txt",header = FALSE)
+activities <- read.table("activity_labels.txt",header = FALSE)
 d_act[,1] = activities[d_act[,1], 2]
 names(d_act) <- "activity"
 names(d_subj) <- "subject"
