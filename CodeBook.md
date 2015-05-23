@@ -23,7 +23,22 @@ This dataset provides only a subset, mean and standard deviation, of the initial
   <code>list.files()</code>
 
 ## Variables
-
+|Name|Type|Description|
+|------|------|------|
+|subject|int|An identifier of the subject who carried out the experiment.|
+|activity|Factor w/ 6 levels|activity name|
+|timeBodyAccelerometer-mean-X|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, x axis|
+|timeBodyAccelerometer-mean-Y|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, y axis|
+|timeBodyAccelerometer-mean-Z|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, z axis|
+|timeBodyAccelerometer-std-X|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, x axis|
+|timeBodyAccelerometer-std-Y|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, y axis|
+|timeBodyAccelerometer-std-Z|num|Filtered time domain signals from the accelerometer separated into body acceleration signals, z axis|
+|timeGravityAccelerometer-mean-X|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, x axis|
+|timeGravityAccelerometer-mean-Y|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, y axis|
+|timeGravityAccelerometer-mean-Z|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, z axis|
+|timeGravityAccelerometer-std-X|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, x axis|
+|timeGravityAccelerometer-std-Y|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, y axis|
+|timeGravityAccelerometer-std-Z|num|Filtered time domain signals from the accelerometer separated into gravity acceleration signals, z axis|
 
 
 ## Data
