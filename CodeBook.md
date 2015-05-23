@@ -57,10 +57,42 @@ This dataset provides only a subset, mean and standard deviation, of the initial
 |timeBodyGyroscopeJerk-std-X|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the x axis|
 |timeBodyGyroscopeJerk-std-Y|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the y axis|
 |timeBodyGyroscopeJerk-std-Z|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals along the z axis|
-
-
-
-
+|timeBodyAccelerometerMagnitude-mean|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals; magnitude calculated using the Euclidean norm|
+|timeBodyAccelerometerMagnitude-std|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals; magnitude calculated using the Euclidean norm|
+|timeGravityAccelerometerMagnitude-mean|num|Mean of filtered time domain signals from the accelerometer separated into gravity acceleration signals; magnitude calculated using the Euclidean norm|
+|timeGravityAccelerometerMagnitude-std|num|Standard deviation of filtered time domain signals from the accelerometer separated into gravity acceleration signals; magnitude calculated using the Euclidean norm|
+|timeBodyAccelerometerJerkMagnitude-mean|num|Mean of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
+|timeBodyAccelerometerJerkMagnitude-std|num|Standard deviation of filtered time domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
+|timeBodyGyroscopeMagnitude-mean|num|Mean of filtered time domain signals from the gyroscope separated into body acceleration signals; magnitude calculated using the Euclidean norm|
+|timeBodyGyroscopeMagnitude-std|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals; magnitude calculated using the Euclidean norm|
+|timeBodyGyroscopeJerkMagnitude-mean|num|Mean of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
+|timeBodyGyroscopeJerkMagnitude-std|num|Standard deviation of filtered time domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
+|frequencyBodyAccelerometer-mean-X|num|Mean of filtered frequency domain signals from the accelerometer separated into body acceleration signals, x axis|
+|frequencyBodyAccelerometer-mean-Y|num|Mean of filtered frequency domain signals from the accelerometer separated into body acceleration signals, y axis|
+|frequencyBodyAccelerometer-mean-Z|num|Mean of filtered frequency domain signals from the accelerometer separated into body acceleration signals, z axis|
+|frequencyBodyAccelerometer-std-X|num|Standard deviation of filtered frequency domain signals from the accelerometer separated into body acceleration signals, x axis|
+|frequencyBodyAccelerometer-std-Y|num|Standard deviation of filtered frequency domain signals from the accelerometer separated into body acceleration signals, y axis|
+|frequencyBodyAccelerometer-std-Z|num|Standard deviation of filtered frequency domain signals from the accelerometer separated into body acceleration signals, z axis|
+|frequencyBodyAccelerometerJerk-mean-X|num|Mean of filtered frequency domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals, x axis|
+|frequencyBodyAccelerometerJerk-mean-Y|num|Mean of filtered frequency domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals, y axis|
+|frequencyBodyAccelerometerJerk-mean-Z|num|Mean of filtered frequency domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals, z axis|
+|frequencyBodyAccelerometerJerk-std-X|num|Standard deviation of filtered frequency domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals, x axis|
+|frequencyBodyAccelerometerJerk-std-Y|num|Standard deviation of filtered frequency domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals, y axis|
+|frequencyBodyAccelerometerJerk-std-Z|num|Standard deviation of filtered frequency domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals, z axis|
+|frequencyBodyGyroscope-mean-X|num|Mean of filtered frequency domain signals from the gyroscope separated into body acceleration signals, x axis|
+|frequencyBodyGyroscope-mean-Y|num|Mean of filtered frequency domain signals from the gyroscope separated into body acceleration signals, y axis|
+|frequencyBodyGyroscope-mean-Z|num|Mean of filtered frequency domain signals from the gyroscope separated into body acceleration signals, z axis|
+|frequencyBodyGyroscope-std-X|num|Standard deviation of filtered frequency domain signals from the gyroscope separated into body acceleration signals, x axis|
+|frequencyBodyGyroscope-std-Y|num|Standard deviation of filtered frequency domain signals from the gyroscope separated into body acceleration signals, y axis|
+|frequencyBodyGyroscope-std-Z|num|Standard deviation of filtered frequency domain signals from the gyroscope separated into body acceleration signals, z axis|
+|frequencyBodyAccelerometerMagnitude-mean|num|Mean of filtered frequency domain signals from the accelerometer separated into body acceleration signals; magnitude calculated using the Euclidean norm|
+|frequencyBodyAccelerometerMagnitude-std|num|Standard deviation of filtered frequency domain signals from the accelerometer separated into body acceleration signals; magnitude calculated using the Euclidean norm|
+|frequencyBodyAccelerometerJerkMagnitude-mean|num|Mean of filtered frequency domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
+|frequencyBodyAccelerometerJerkMagnitude-std|num|Standard deviation of filtered frequency domain signals from the accelerometer separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
+|frequencyBodyGyroscopeMagnitude-mean|num|Mean of filtered frequency domain signals from the gyroscope separated into body acceleration signals; magnitude calculated using the Euclidean norm|
+|frequencyBodyGyroscopeMagnitude-std|num|Standard deviation of filtered frequency domain signals from the gyroscope separated into body acceleration signals; magnitude calculated using the Euclidean norm|
+|frequencyBodyGyroscopeJerkMagnitude-mean|num|Mean of filtered frequency domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
+|frequencyBodyGyroscopeJerkMagnitude-std|Standard deviation of filtered frequency domain signals from the gyroscope separated into body acceleration signals; linear acceleration and angular velocity were derived in time to obtain Jerk signals; magnitude calculated using the Euclidean norm|
 
 ## Data
 
