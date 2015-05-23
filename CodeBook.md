@@ -31,16 +31,16 @@ This dataset provides only a subset, mean and standard deviation, of the initial
 
 
 ## Transformations 
-Training and test datasets are combined into a single dataset
-Descriptive activity names are added to the dataset
-Names of Features will be modified using descriptive variable names:
-  Prefix t is replaced by time
-  Acc is replaced by Accelerometer
-  Gyro is replaced by Gyroscope
-  Prefix f is replaced by frequency
-  Mag is replaced by Magnitude
-  BodyBody is replaced by Body
-Original variables are aggregated into mean averages and are first sorted by subject then by activity.
+-Training and test datasets are combined into a single dataset
+-Descriptive activity names are added to the dataset
+-Names of Features will be modified using descriptive variable names:
+  --Prefix t is replaced by time
+  --Acc is replaced by Accelerometer
+  --Gyro is replaced by Gyroscope
+  --Prefix f is replaced by frequency
+  --Mag is replaced by Magnitude
+  --BodyBody is replaced by Body
+-Original variables are aggregated into mean averages and are first sorted by subject then by activity.
 ## References
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
