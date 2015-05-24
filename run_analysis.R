@@ -30,7 +30,7 @@ names(d_features) <- gsub("\\(|\\)", "", names(d_features))
 
 #Uses descriptive activity names to name the activities in the data set.
 activities <- read.table("activity_labels.txt",header = FALSE)
-d_act[,1] = activities[d_act[,1], 2]
+d_act[,1] <- activities[d_act[,1], 2]
 names(d_act) <- "activity"
 names(d_subj) <- "subject"
 
